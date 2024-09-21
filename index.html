@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Frontend Mentor | Contact form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form class="container">
+      <h1>Contact Us</h1>
+      <div class="user-name">
+        <div class="oname">
+          <label for="fname">First Name <span>*</span></label> <br /><input
+            id="fname"
+            type="text"
+          />
+        </div>
+        <div class="tname">
+          <label for="lname">Last Name <span>*</span></label
+          ><br />
+          <input id="lname" type="text" />
+        </div>
+      </div>
+      <div class="user-email">
+        <label for="umail">Email Address <span>*</span></label
+        ><br />
+        <input id="umail" type="text" />
+      </div>
+      <label for="qtype" style="font-size: 12px">
+        Query Type <span>*</span></label
+      ><br />
+      <div class="query">
+        <div class="query-type">
+          <input id="qtype" type="radio" /><span>General Enquiry</span>
+        </div>
+        <div class="query-type supplimentary">
+          <input id="qtype" type="radio" /><span>Support Request</span>
+        </div>
+      </div>
+      <div class="user-message">
+        <label for="message"> Message <span>*</span></label
+        ><br />
+        <textarea name="" id=""></textarea>
+      </div>
+      <div class="check">
+        <input type="checkbox" />I consent to being contacted by the team
+        <span>*</span>
+      </div>
+      <div>
+        <input id="subm" type="submit" />
+      </div>
+    </form>
+  </body>
+</html>

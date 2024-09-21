@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(148, 38%, 91%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.user-name {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.oname,
+.tname,
+.query-type {
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  margin-top: 5px;
+}
+
+.user-email {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.query {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.user-message {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: hsl(186, 15%, 59%);
+}
+.check {
+  margin-bottom: 20px;
+}
+
+.query-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  padding-left: 20px;
+  border: 1px solid hsl(186, 15%, 59%);
+
+  border-radius: 5px;
+}
+
+.check > input {
+  margin-right: 10px;
+}
+
+.query-type > input {
+  width: 12px;
+  margin-right: 20px;
+}
+
+#fname,
+#lname {
+  width: 250px;
+  border-radius: 5px;
+}
+
+#fname,
+#lname,
+#umail,
+#qtype {
+  height: 28px;
+}
+
+#umail {
+  border-radius: 5px;
+  width: 100%;
+}
+
+#subm {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+  background-color: hsl(169, 82%, 27%);
+  color: white;
+}
